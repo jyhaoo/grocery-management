@@ -3,10 +3,6 @@
 ## React JS
 
 ### How to run
-
-```
-npm start build
-```
 ```npm start
 ```
 
