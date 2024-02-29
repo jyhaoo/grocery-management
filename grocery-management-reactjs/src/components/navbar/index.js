@@ -4,7 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Nav = styled.div`
   width: 306px;
-  height: 1198px;
+  height: 100vh;
   position: absolute;
 `;
 
@@ -31,7 +31,7 @@ const MenuItem = styled.div`
   width: 231px;
   height: 24px;
   margin-bottom: 29px;
-  color: #9197b3;
+  color: ${({ theme }) => theme.menuItem};
 `;
 
 const Navbar = () => {
