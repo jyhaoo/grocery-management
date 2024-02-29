@@ -1,8 +1,9 @@
 import "./App.css";
 import styled, { ThemeProvider } from "styled-components";
-import Navbar from "../src/components/navbar";
 import { BrowserRouter as Router } from "react-router-dom";
 import { lightTheme } from "./components/utils/Themes";
+import Navbar from "../src/components/navbar";
+import Welcome from "../src/components/welcome";
 
 const Body = styled.div`
   float: right;
@@ -16,7 +17,9 @@ function App() {
     <ThemeProvider theme={lightTheme}>
       <Router>
         <Navbar />
-        <Body></Body>
+        <Body>
+          <Welcome />
+        </Body>
       </Router>
     </ThemeProvider>
   );
