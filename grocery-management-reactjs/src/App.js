@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { lightTheme } from "./components/utils/Themes";
 import Navbar from "../src/components/navbar";
 import Welcome from "../src/components/welcome";
+import Summary from "../src/components/summary";
 
 const Body = styled.div`
   float: right;
@@ -19,6 +20,7 @@ function App() {
         <Navbar />
         <Body>
           <Welcome />
+          <Summary />
         </Body>
       </Router>
     </ThemeProvider>
