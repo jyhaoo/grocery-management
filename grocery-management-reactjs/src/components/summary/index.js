@@ -6,7 +6,7 @@ import { MdSaveAlt } from "react-icons/md";
 const SummaryContainer = styled.div`
   background-color: ${({ theme }) => theme.summaryBackground};
   width: 968px;
-  height: 151px;
+  height: 130px;
   margin-top: 40px;
   margin-left: 71px;
   border-radius: 25px;
