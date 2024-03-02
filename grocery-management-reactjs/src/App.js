@@ -5,6 +5,7 @@ import { lightTheme } from "./components/utils/Themes";
 import Navbar from "../src/components/navbar";
 import Welcome from "../src/components/welcome";
 import Summary from "../src/components/summary";
+import GroceryList from "./components/groceryList";
 
 const Body = styled.div`
   float: right;
@@ -21,6 +22,7 @@ function App() {
         <Body>
           <Welcome />
           <Summary />
+          <GroceryList />
         </Body>
       </Router>
     </ThemeProvider>
