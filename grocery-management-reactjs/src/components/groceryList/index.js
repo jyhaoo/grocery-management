@@ -12,7 +12,6 @@ const GroceryContainer = styled.div`
 `;
 
 const Title = styled.div`
-  background-color: lightgreen;
   width: 155px;
   height: 33px;
   margin-left: 38px;
@@ -23,7 +22,6 @@ const Title = styled.div`
 `;
 
 const ColumnTab = styled.div`
-  background-color: lightblue;
   width: 863px;
   height: 21px;
   margin-top: 20px;
